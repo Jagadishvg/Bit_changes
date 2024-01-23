@@ -1,0 +1,976 @@
+{
+  "all_items": [
+    {
+      "productId": "001",
+      "title": "Fern",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://images.unsplash.com/photo-1686191487965-73440324e2f9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmVybiUyMHBsYW50fGVufDB8fDB8fHww",
+      "imageAltText": "Fern Plant Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Fern Plant",
+        "caption": "A beautiful addition to your indoor garden",
+        "description": "The fern plant is known for its lush green foliage, making it an ideal choice for indoor gardening. It adds a touch of nature to your home.",
+        "badge": "Popular Choice",
+        "averageRating": "4.7",
+        "totalRatings": "800",
+        "price": "$15",
+        "discountPrice": "$12",
+        "images": [
+          {
+            "imageSrc": "https://example.com/fern-plant-image1.jpg",
+            "imageAltText": "Fern Plant Image 1"
+          },
+          {
+            "imageSrc": "https://example.com/fern-plant-image2.jpg",
+            "imageAltText": "Fern Plant Image 2"
+          }
+        ],
+        "offers": "Buy 1, Get a Small Pot Free!",
+        "available": true,
+        "category": "Plants",
+        "subcategory": "Indoor",
+        "keywords": ["fern", "indoor", "gardening", "green", "foliage"],
+        "classification": [
+          {
+            "color": "green",
+            "size": "small"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "plantlover123",
+            "user-name": "GreenThumb",
+            "rating": "4.5",
+            "comment": "The fern plant looks amazing in my living room. Easy to care for!",
+            "replies": [
+              {
+                "user-id": "admin",
+                "user-name": "Admin",
+                "comment": "We're delighted to hear that! Thank you for choosing Fern."
+              }
+          ]
+          }
+        ]
+      }
+    },
+    {
+      "productId": "002",
+      "title": "succulent",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://images.unsplash.com/photo-1620955206264-a5b902a907fb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3VjY3VsZW50JTIwcGxhbnR8ZW58MHx8MHx8fDA%3D",
+      "imageAltText": "Succulent Plant Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Succulent Plant",
+        "caption": "A low-maintenance beauty for any space",
+        "description": "Succulents are known for their unique shapes and easy care. Perfect for both indoor and outdoor settings, they thrive in various environments.",
+        "badge": "Best Seller",
+        "averageRating": "4.9",
+        "totalRatings": "1200",
+        "price": "$10",
+        "discountPrice": "$8",
+        "images": [
+          {
+            "imageSrc": "https://example.com/succulent-image1.jpg",
+            "imageAltText": "Succulent Plant Image 1"
+          },
+          {
+            "imageSrc": "https://example.com/succulent-image2.jpg",
+            "imageAltText": "Succulent Plant Image 2"
+          }
+        ],
+        "offers": "Free Mini Watering Can with Purchase!",
+        "available": true,
+        "category": "Plants",
+        "subcategory": "Succulents",
+        "keywords": ["succulent", "low-maintenance", "green", "indoor", "outdoor"],
+        "classification": [
+          {
+            "color": "green",
+            "size": "small"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "succulentlover456",
+            "user-name": "PlantEnthusiast",
+            "rating": "5",
+            "comment": "I love my new succulent! It adds a pop of green to my desk.",
+            "replies": [
+              {
+                "user-id": "admin",
+                "user-name": "Admin",
+                "comment": "We're delighted to hear that! Thank you for choosing succulent."
+              }
+          ]
+          }
+        ]
+      }
+    },
+    {
+      "productId": "003",
+      "title": "Lavender",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://images.unsplash.com/photo-1621198605275-d34dcad4c90c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TGF2ZW5kZXIlMjBwbGFudHxlbnwwfHwwfHx8MA%3D%3D",
+      "imageAltText": "Lavender Plant Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Lavender Plant",
+        "caption": "A fragrant and calming addition to your garden",
+        "description": "Lavender plants not only provide beautiful purple blooms but also emit a soothing fragrance. Perfect for gardens and as decorative plants.",
+        "badge": "Editor's Pick",
+        "averageRating": "4.6",
+        "totalRatings": "950",
+        "price": "$18",
+        "discountPrice": "$15",
+        "images": [
+          {
+            "imageSrc": "https://example.com/lavender-image1.jpg",
+            "imageAltText": "Lavender Plant Image 1"
+          },
+          {
+            "imageSrc": "https://example.com/lavender-image2.jpg",
+            "imageAltText": "Lavender Plant Image 2"
+          }
+        ],
+        "offers": "Free Lavender Essential Oil with Purchase!",
+        "available": true,
+        "category": "Plants",
+        "subcategory": "Flowering",
+        "keywords": ["lavender", "fragrant", "garden", "purple", "calming"],
+        "classification": [
+          {
+            "color": "purple",
+            "size": "medium"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "flowerpower789",
+            "user-name": "NatureLover",
+            "rating": "4.7",
+            "comment": "The lavender plant in my garden is thriving. The fragrance is enchanting!",
+            "replies": [
+              {
+                "user-id": "admin",
+                "user-name": "Admin",
+                "comment": "We're delighted to hear that! Thank you for choosing Lavender."
+              }
+            ] 
+          }
+        ]
+      }
+    },
+    {
+      "productId": "004",
+      "title": "Spider Plant",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://images.unsplash.com/photo-1572688484438-313a6e50c333?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3BpZGVyJTIwcGxhbnR8ZW58MHx8MHx8fDA%3D",
+      "imageAltText": "Spider Plant Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Spider Plant",
+        "caption": "An air-purifying and resilient houseplant",
+        "description": "The spider plant is well-known for its arching leaves and air-purifying abilities. It's a low-maintenance plant, making it perfect for beginners.",
+        "badge": "Top Choice",
+        "averageRating": "4.9",
+        "totalRatings": "1000",
+        "price": "$12",
+        "discountPrice": "$10",
+        "images": [
+          {
+            "imageSrc": "https://example.com/spider-plant-image1.jpg",
+            "imageAltText": "Spider Plant Image 1"
+          },
+          {
+            "imageSrc": "https://example.com/spider-plant-image2.jpg",
+            "imageAltText": "Spider Plant Image 2"
+          }
+        ],
+        "offers": "Free Mini Watering Can with Purchase!",
+        "available": true,
+        "category": "Plants",
+        "subcategory": "Indoor",
+        "keywords": ["spider plant", "air-purifying", "resilient", "houseplant", "green"],
+        "classification": [
+          {
+            "color": "white",
+            "size": "small"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "plantlover789",
+            "user-name": "GreenDreamer",
+            "rating": "5",
+            "comment": "My spider plant is thriving and has improved the air quality in my home. Highly recommend!",
+            "replies": [
+              {
+                "user-id": "admin",
+                "user-name": "Admin",
+                "comment": "We're delighted to hear that! Thank you for choosing Spider plant."
+              }
+          ]
+          }
+        ]
+      }
+    },
+    {
+      "productId": "005",
+      "title": "Snake Plant",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://images.unsplash.com/photo-1593482892290-f54927ae1bb6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8U25ha2UlMjBQbGFudHxlbnwwfHwwfHx8MA%3D%3D",
+      "imageAltText": "Snake Plant Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Snake Plant",
+        "caption": "An air-purifying marvel for your home",
+        "description": "The snake plant, also known as mother-in-law's tongue, is not only visually appealing but also an excellent air purifier. It thrives in low light conditions, making it perfect for indoor spaces.",
+        "badge": "Best Seller",
+        "averageRating": "4.9",
+        "totalRatings": "1200",
+        "price": "$20",
+        "discountPrice": "$18",
+        "images": [
+          {
+            "imageSrc": "https://example.com/snake-plant-image1.jpg",
+            "imageAltText": "Snake Plant Image 1"
+          },
+          {
+            "imageSrc": "https://example.com/snake-plant-image2.jpg",
+            "imageAltText": "Snake Plant Image 2"
+          }
+        ],
+        "offers": "Free Plant Care Guide with Every Purchase!",
+        "available": true,
+        "category": "Plants",
+        "subcategory": "Indoor",
+        "keywords": ["snake plant", "indoor", "air purifier", "green"],
+        "classification": [
+          {
+            "color": "green",
+            "size": "medium"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "plantlover456",
+            "user-name": "GreenLiving",
+            "rating": "5.0",
+            "comment": "The snake plant is a must-have! It adds beauty to my space and keeps the air fresh. Love it!",
+            "replies": [
+              {
+                "user-id": "admin",
+                "user-name": "Admin",
+                "comment": "We're thrilled to hear that! Thank you for choosing Snake Plant."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "productId": "006",
+      "title": "Peace Lily",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://images.unsplash.com/photo-1593691509543-c55fb32d8de5?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cGVhY2UlMjBsaWx5fGVufDB8fDB8fHww",
+      "imageAltText": "Peace Lily Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Peace Lily",
+        "caption": "Elegant and serene, a perfect gift for any occasion",
+        "description": "The peace lily is known for its elegant white flowers and air-purifying qualities. It thrives in low to medium light conditions, making it an excellent choice for homes and offices.",
+        "badge": "Customer Favorite",
+        "averageRating": "4.8",
+        "totalRatings": "950",
+        "price": "$25",
+        "discountPrice": "$22",
+        "images": [
+          {
+            "imageSrc": "https://example.com/peace-lily-image1.jpg",
+            "imageAltText": "Peace Lily Image 1"
+          },
+          {
+            "imageSrc": "https://example.com/peace-lily-image2.jpg",
+            "imageAltText": "Peace Lily Image 2"
+          }
+        ],
+        "offers": "Free Elegant Pot with Every Purchase!",
+        "available": true,
+        "category": "Plants",
+        "subcategory": "Indoor",
+        "keywords": ["peace lily", "indoor", "gift", "white flowers"],
+        "classification": [
+          {
+            "color": "white",
+            "size": "small"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "naturelover789",
+            "user-name": "SereneSoul",
+            "rating": "4.7",
+            "comment": "The peace lily adds a touch of serenity to my home. Beautiful plant!",
+            "replies": [
+              {
+                "user-id": "admin",
+                "user-name": "Admin",
+                "comment": "Thank you for sharing your experience! Enjoy your Peace Lily."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "productId": "007",
+      "title": "Aloe Vera",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://images.unsplash.com/photo-1570295835271-04c05b4ed943?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWxvZSUyMHZlcmF8ZW58MHx8MHx8fDA%3D",
+      "imageAltText": "Aloe Vera Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Aloe Vera",
+        "caption": "Nature's healer in a pot, known for its soothing properties",
+        "description": "Aloe Vera is a versatile plant known for its soothing gel. It's not only easy to care for but also has various uses, making it a must-have for every home.",
+        "badge": "Wellness Plant",
+        "averageRating": "4.5",
+        "totalRatings": "850",
+        "price": "$12",
+        "discountPrice": "$10",
+        "images": [
+          {
+            "imageSrc": "https://example.com/aloe-vera-image1.jpg",
+            "imageAltText": "Aloe Vera Image 1"
+          },
+          {
+            "imageSrc": "https://example.com/aloe-vera-image2.jpg",
+            "imageAltText": "Aloe Vera Image 2"
+          }
+        ],
+        "offers": "Free Natural Potting Soil with Every Purchase!",
+        "available": true,
+        "category": "Plants",
+        "subcategory": "Indoor",
+        "keywords": ["aloe vera", "indoor", "wellness", "healing"],
+        "classification": [
+          {
+            "color": "green",
+            "size": "small"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "healthyliving456",
+            "user-name": "WellnessEnthusiast",
+            "rating": "4.5",
+            "comment": "Aloe Vera is a must for anyone interested in natural healing. Love it!",
+            "replies": [
+              {
+                "user-id": "admin",
+                "user-name": "Admin",
+                "comment": "We're happy to be part of your wellness journey! Thank you for choosing Aloe Vera."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "productId": "008",
+      "title": "Monstera Deliciosa",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://images.unsplash.com/photo-1614594975525-e45190c55d0b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bW9uc3RlcmElMjBkZWxpY2lvc2F8ZW58MHx8MHx8fDA%3D",
+      "imageAltText": "Monstera Deliciosa Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Monstera Deliciosa",
+        "caption": "A tropical beauty for your indoor oasis",
+        "description": "The Monstera Deliciosa, known for its unique split leaves, adds a touch of the tropics to your indoor space. It's an eye-catching and low-maintenance plant.",
+        "badge": "Exotic Choice",
+        "averageRating": "4.6",
+        "totalRatings": "900",
+        "price": "$30",
+        "discountPrice": "$27",
+        "images": [
+          {
+            "imageSrc": "https://example.com/monstera-deliciosa-image1.jpg",
+            "imageAltText": "Monstera Deliciosa Image 1"
+          },
+          {
+            "imageSrc": "https://example.com/monstera-deliciosa-image2.jpg",
+            "imageAltText": "Monstera Deliciosa Image 2"
+          }
+        ],
+        "offers": "Free Tropical Plant Food with Every Purchase!",
+        "available": true,
+        "category": "Plants",
+        "subcategory": "Indoor",
+        "keywords": ["monstera deliciosa", "indoor", "tropical", "exotic"],
+        "classification": [
+          {
+            "color": "green",
+            "size": "large"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "tropicallover123",
+            "user-name": "IslandDreamer",
+            "rating": "4.7",
+            "comment": "The Monstera Deliciosa brings a piece of paradise into my home. Love it!",
+            "replies": [
+              {
+                "user-id": "admin",
+                "user-name": "Admin",
+                "comment": "We're thrilled to bring the tropics to you! Thank you for choosing Monstera Deliciosa."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "productId": "009",
+      "title": "ZZ Plant",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://images.unsplash.com/photo-1606256419855-d72ce8675863?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8enolMjBwbGFudHxlbnwwfHwwfHx8MA%3D%3D",
+      "imageAltText": "ZZ Plant Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "ZZ Plant",
+        "caption": "Modern and resilient, a perfect addition to any space",
+        "description": "The ZZ Plant, with its glossy green leaves, is a modern and resilient choice for indoor spaces. It requires minimal care and is known for its air-purifying qualities.",
+        "badge": "Modern Favorite",
+        "averageRating": "4.9",
+        "totalRatings": "1100",
+        "price": "$25",
+        "discountPrice": "$22",
+        "images": [
+          {
+            "imageSrc": "https://example.com/zz-plant-image1.jpg",
+            "imageAltText": "ZZ Plant Image 1"
+          },
+          {
+            "imageSrc": "https://example.com/zz-plant-image2.jpg",
+            "imageAltText": "ZZ Plant Image 2"
+          }
+        ],
+        "offers": "Free Stylish Pot with Every Purchase!",
+        "available": true,
+        "category": "Plants",
+        "subcategory": "Indoor",
+        "keywords": ["zz plant", "indoor", "modern", "resilient"],
+        "classification": [
+          {
+            "color": "green",
+            "size": "medium"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "modernliving456",
+            "user-name": "UrbanBotanist",
+            "rating": "5.0",
+            "comment": "The ZZ Plant is the epitome of modern elegance. It thrives effortlessly!",
+            "replies": [
+              {
+                "user-id": "admin",
+                "user-name": "Admin",
+                "comment": "Thank you for choosing the ZZ Plant to elevate your space! Enjoy."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "productId": "010",
+      "title": "Rubber Plant",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://images.unsplash.com/photo-1493552152660-f915ab47ae9d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cnViYmVyJTIwcGxhbnR8ZW58MHx8MHx8fDA%3D",
+      "imageAltText": "Rubber Plant Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Rubber Plant",
+        "caption": "Classic and enduring, a timeless choice for any room",
+        "description": "The Rubber Plant, with its dark green leaves, is a classic and enduring choice for indoor spaces. It's known for its adaptability and ability to thrive in various conditions.",
+        "badge": "Timeless Classic",
+        "averageRating": "4.7",
+        "totalRatings": "950",
+        "price": "$22",
+        "discountPrice": "$20",
+        "images": [
+          {
+            "imageSrc": "https://example.com/rubber-plant-image1.jpg",
+            "imageAltText": "Rubber Plant Image 1"
+          },
+          {
+            "imageSrc": "https://example.com/rubber-plant-image2.jpg",
+            "imageAltText": "Rubber Plant Image 2"
+          }
+        ],
+        "offers": "Free Plant Care Guide with Every Purchase!",
+        "available": true,
+        "category": "Trees",
+        "subcategory": "Indoor",
+        "keywords": ["rubber plant", "indoor", "classic", "enduring"],
+        "classification": [
+          {
+            "color": "dark green",
+            "size": "large"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "classiclover789",
+            "user-name": "TimelessElegance",
+            "rating": "4.8",
+            "comment": "The Rubber Plant adds a touch of timeless elegance to my home. Love it!",
+            "replies": [
+              {
+                "user-id": "admin",
+                "user-name": "Admin",
+                "comment": "We're delighted to be part of your timeless decor. Thank you for choosing Rubber Plant."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "productId": "011",
+      "title": "Bamboo Palm",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://images.unsplash.com/photo-1506634064465-7dab4de896ed?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YmFtYm9vJTIwcGFsbXxlbnwwfHwwfHx8MA%3D%3D",
+      "imageAltText": "Bamboo Palm Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Bamboo Palm",
+        "caption": "Tropical vibes in a pot, perfect for a relaxing atmosphere",
+        "description": "The Bamboo Palm, with its feathery fronds, brings tropical vibes to any space. It's an excellent choice for creating a relaxing and calming atmosphere indoors.",
+        "badge": "Relaxation Companion",
+        "averageRating": "4.5",
+        "totalRatings": "800",
+        "price": "$28",
+        "discountPrice": "$25",
+        "images": [
+          {
+            "imageSrc": "https://example.com/bamboo-palm-image1.jpg",
+            "imageAltText": "Bamboo Palm Image 1"
+          },
+          {
+            "imageSrc": "https://example.com/bamboo-palm-image2.jpg",
+            "imageAltText": "Bamboo Palm Image 2"
+          }
+        ],
+        "offers": "Free Mini Water Fountain with Every Purchase!",
+        "available": true,
+        "category": "Trees",
+        "subcategory": "Indoor",
+        "keywords": ["bamboo palm", "indoor", "tropical", "relaxing"],
+        "classification": [
+          {
+            "color": "green",
+            "size": "medium"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "tropicallover456",
+            "user-name": "ZenSeeker",
+            "rating": "4.5",
+            "comment": "The Bamboo Palm creates a serene and tropical ambiance. Love it for my zen space!",
+            "replies": [
+              {
+                "user-id": "admin",
+                "user-name": "Admin",
+                "comment": "We're thrilled to contribute to your zen haven. Thank you for choosing Bamboo Palm."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "productId": "012",
+      "title": "Philodendron Birkin",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://images.unsplash.com/photo-1611068121255-6c385c1ae32c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8UGhpbG9kZW5kcm9uJTIwQmlya2lufGVufDB8fDB8fHww",
+      "imageAltText": "Philodendron Birkin Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Philodendron Birkin",
+        "caption": "Stripes of elegance for your indoor jungle",
+        "description": "The Philodendron Birkin, characterized by its stunning striped leaves, adds a touch of elegance to your indoor jungle. It's a compact and stylish choice for plant enthusiasts.",
+        "badge": "Trendy Pick",
+        "averageRating": "4.8",
+        "totalRatings": "1000",
+        "price": "$32",
+        "discountPrice": "$29",
+        "images": [
+          {
+            "imageSrc": "https://example.com/philodendron-birkin-image1.jpg",
+            "imageAltText": "Philodendron Birkin Image 1"
+          },
+          {
+            "imageSrc": "https://example.com/philodendron-birkin-image2.jpg",
+            "imageAltText": "Philodendron Birkin Image 2"
+          }
+        ],
+        "offers": "Free Stylish Plant Stand with Every Purchase!",
+        "available": true,
+        "category": "Trees",
+        "subcategory": "Indoor",
+        "keywords": ["philodendron birkin", "indoor", "striped leaves", "elegance"],
+        "classification": [
+          {
+            "color": "green",
+            "size": "small"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "plantlover789",
+            "user-name": "StyleEnthusiast",
+            "rating": "4.9",
+            "comment": "The Philodendron Birkin is a stylish addition to my plant collection. Love the stripes!",
+            "replies": [
+              {
+                "user-id": "admin",
+                "user-name": "Admin",
+                "comment": "We're delighted to add a touch of style to your collection. Thank you for choosing Philodendron Birkin."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "productId": "013",
+      "title": "Calathea Orbifolia",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://images.unsplash.com/photo-1638891131826-b5bb30fbc6fa?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Q2FsYXRoZWElMjBPcmJpZm9saWF8ZW58MHx8MHx8fDA%3D",
+      "imageAltText": "Calathea Orbifolia Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Calathea Orbifolia",
+        "caption": "A masterpiece of nature with intricate leaf patterns",
+        "description": "The Calathea Orbifolia, known for its large and round leaves with intricate patterns, is a masterpiece of nature. It's an ideal choice for those seeking a plant with artistic foliage.",
+        "badge": "Artistic Beauty",
+        "averageRating": "4.7",
+        "totalRatings": "950",
+        "price": "$35",
+        "discountPrice": "$32",
+        "images": [
+          {
+            "imageSrc": "https://example.com/calathea-orbifolia-image1.jpg",
+            "imageAltText": "Calathea Orbifolia Image 1"
+          },
+          {
+            "imageSrc": "https://example.com/calathea-orbifolia-image2.jpg",
+            "imageAltText": "Calathea Orbifolia Image 2"
+          }
+        ],
+        "offers": "Free Art Print of Calathea Patterns with Every Purchase!",
+        "available": true,
+        "category": "Trees",
+        "subcategory": "Indoor",
+        "keywords": ["calathea orbifolia", "indoor", "artistic", "patterns"],
+        "classification": [
+          {
+            "color": "green",
+            "size": "medium"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "artlover456",
+            "user-name": "NatureArtist",
+            "rating": "4.8",
+            "comment": "The Calathea Orbifolia is like a living artwork in my home. Absolutely stunning!",
+            "replies": [
+              {
+                "user-id": "admin",
+                "user-name": "Admin",
+                "comment": "We're thrilled to bring artistic beauty to your space. Thank you for choosing Calathea Orbifolia."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "productId": "014",
+      "title": "String of Pearls",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://images.unsplash.com/photo-1595313356207-52d15f1a35be?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8U3RyaW5nJTIwb2YlMjBQZWFybHN8ZW58MHx8MHx8fDA%3D",
+      "imageAltText": "String of Pearls Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "String of Pearls",
+        "caption": "Cascading beauty for hanging plant enthusiasts",
+        "description": "The String of Pearls, with its cascading stems of bead-like leaves, is a unique and charming choice for hanging plant enthusiasts. It adds a touch of whimsy to any room.",
+        "badge": "Hanging Marvel",
+        "averageRating": "4.6",
+        "totalRatings": "900",
+        "price": "$18",
+        "discountPrice": "$15",
+        "images": [
+          {
+            "imageSrc": "https://example.com/string-of-pearls-image1.jpg",
+            "imageAltText": "String of Pearls Image 1"
+          },
+          {
+            "imageSrc": "https://example.com/string-of-pearls-image2.jpg",
+            "imageAltText": "String of Pearls Image 2"
+          }
+        ],
+        "offers": "Free Macramé Hanger with Every Purchase!",
+        "available": true,
+        "category": "Plants",
+        "subcategory": "Indoor",
+        "keywords": ["string of pearls", "indoor", "hanging", "charming"],
+        "classification": [
+          {
+            "color": "green",
+            "size": "small"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "plantlover123",
+            "user-name": "HangingGarden",
+            "rating": "4.7",
+            "comment": "The String of Pearls is a delightful addition to my hanging garden. Love the cascading beauty!",
+            "replies": [
+              {
+                "user-id": "admin",
+                "user-name": "Admin",
+                "comment": "We're delighted to bring cascading beauty to your hanging garden. Thank you for choosing String of Pearls."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "productId": "015",
+      "title": "Pothos Marble Queen",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://images.unsplash.com/photo-1596724878582-76f1a8fdc24f?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8UG90aG9zJTIwTWFyYmxlJTIwUXVlZW58ZW58MHx8MHx8fDA%3D",
+      "imageAltText": "Pothos Marble Queen Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Pothos Marble Queen",
+        "caption": "Trailing elegance with variegated leaves",
+        "description": "The Pothos Marble Queen, with its trailing vines and variegated leaves, brings a touch of elegance to any space. It's a versatile and easy-to-care-for plant.",
+        "badge": "Versatile Elegance",
+        "averageRating": "4.5",
+        "totalRatings": "850",
+        "price": "$20",
+        "discountPrice": "$18",
+        "images": [
+          {
+            "imageSrc": "https://example.com/pothos-marble-queen-image1.jpg",
+            "imageAltText": "Pothos Marble Queen Image 1"
+          },
+          {
+            "imageSrc": "https://example.com/pothos-marble-queen-image2.jpg",
+            "imageAltText": "Pothos Marble Queen Image 2"
+          }
+        ],
+        "offers": "Free Decorative Plant Pot with Every Purchase!",
+        "available": true,
+        "category": "Trees",
+        "subcategory": "Indoor",
+        "keywords": ["pothos marble queen", "indoor", "trailing", "elegance"],
+        "classification": [
+          {
+            "color": "green",
+            "size": "medium"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "plantlover789",
+            "user-name": "EleganceSeeker",
+            "rating": "4.6",
+            "comment": "The Pothos Marble Queen brings trailing elegance to my home. Love the variegated leaves!",
+            "replies": [
+              {
+                "user-id": "admin",
+                "user-name": "Admin",
+                "comment": "We're happy to add a touch of versatile elegance to your space. Thank you for choosing Pothos Marble Queen."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "productId": "016",
+      "title": "Alocasia Polly",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://images.unsplash.com/photo-1701266780639-d1471199cde0?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8QWxvY2FzaWElMjBQb2xseXxlbnwwfHwwfHx8MA%3D%3D",
+      "imageAltText": "Alocasia Polly Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Alocasia Polly",
+        "caption": "Dramatic foliage for a touch of the exotic",
+        "description": "The Alocasia Polly, with its dramatic arrow-shaped leaves, brings a touch of the exotic to any space. It's a compact and striking choice for plant enthusiasts.",
+        "badge": "Exotic Elegance",
+        "averageRating": "4.7",
+        "totalRatings": "1000",
+        "price": "$38",
+        "discountPrice": "$34",
+        "images": [
+          {
+            "imageSrc": "https://example.com/alocasia-polly-image1.jpg",
+            "imageAltText": "Alocasia Polly Image 1"
+          },
+          {
+            "imageSrc": "https://example.com/alocasia-polly-image2.jpg",
+            "imageAltText": "Alocasia Polly Image 2"
+          }
+        ],
+        "offers": "Free Exotic Plant Food with Every Purchase!",
+        "available": true,
+        "category": "Plants",
+        "subcategory": "Indoor",
+        "keywords": ["alocasia polly", "indoor", "exotic", "dramatic foliage"],
+        "classification": [
+          {
+            "color": "green",
+            "size": "medium"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "exoticlover789",
+            "user-name": "JungleDreamer",
+            "rating": "4.8",
+            "comment": "The Alocasia Polly brings a slice of the jungle into my home. Love the dramatic foliage!",
+            "replies": [
+              {
+                "user-id": "admin",
+                "user-name": "Admin",
+                "comment": "We're thrilled to add a touch of exotic elegance to your space. Thank you for choosing Alocasia Polly."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "productId": "017",
+      "title": "Chinese Money Plant",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://images.unsplash.com/photo-1687810829027-4ccf6fdaa59e?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpbmVzZSUyMG1vbmV5JTIwcGxhbnR8ZW58MHx8MHx8fDA%3D",
+      "imageAltText": "Chinese Money Plant Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Chinese Money Plant",
+        "caption": "Symbol of good luck and prosperity",
+        "description": "The Chinese Money Plant, with its round pancake-shaped leaves, is a symbol of good luck and prosperity. It's a charming and easy-to-care-for addition to any home.",
+        "badge": "Prosperity Charm",
+        "averageRating": "4.6",
+        "totalRatings": "950",
+        "price": "$22",
+        "discountPrice": "$20",
+        "images": [
+          {
+            "imageSrc": "https://example.com/chinese-money-plant-image1.jpg",
+            "imageAltText": "Chinese Money Plant Image 1"
+          },
+          {
+            "imageSrc": "https://example.com/chinese-money-plant-image2.jpg",
+            "imageAltText": "Chinese Money Plant Image 2"
+          }
+        ],
+        "offers": "Free Lucky Plant Charm with Every Purchase!",
+        "available": true,
+        "category": "Plants",
+        "subcategory": "Indoor",
+        "keywords": ["chinese money plant", "indoor", "luck", "prosperity"],
+        "classification": [
+          {
+            "color": "green",
+            "size": "small"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "luckseeker123",
+            "user-name": "ProsperityWisher",
+            "rating": "4.7",
+            "comment": "The Chinese Money Plant brings a touch of prosperity to my home. Love its symbolism!",
+            "replies": [
+              {
+                "user-id": "admin",
+                "user-name": "Admin",
+                "comment": "We're happy to bring luck and prosperity into your home. Thank you for choosing Chinese Money Plant."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "productId": "018",
+      "title": "Dwarf Umbrella Plant",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8RHdhcmYlMjBVbWJyZWxsYSUyMHBsYW50fGVufDB8fDB8fHww",
+      "imageAltText": "Dwarf Umbrella Plant Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Dwarf Umbrella Plant",
+        "caption": "Compact beauty for small spaces",
+        "description": "The Dwarf Umbrella Plant, with its gracefully arching branches, is a compact beauty ideal for small spaces. It's a versatile and easy-to-maintain plant for indoor environments.",
+        "badge": "Space Saver",
+        "averageRating": "4.8",
+        "totalRatings": "1050",
+        "price": "$30",
+        "discountPrice": "$28",
+        "images": [
+          {
+            "imageSrc": "https://example.com/dwarf-umbrella-tree-image1.jpg",
+            "imageAltText": "Dwarf Umbrella Plant Image 1"
+          },
+          {
+            "imageSrc": "https://example.com/dwarf-umbrella-tree-image2.jpg",
+            "imageAltText": "Dwarf Umbrella Plant Image 2"
+          }
+        ],
+        "offers": "Free Space-Saving Plant Stand with Every Purchase!",
+        "available": true,
+        "category": "Plants",
+        "subcategory": "Indoor",
+        "keywords": ["Dwarf Umbrella Plant", "indoor", "compact", "beauty"],
+        "classification": [
+          {
+            "color": "green",
+            "size": "small"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "spacesaver456",
+            "user-name": "CompactLiving",
+            "rating": "4.9",
+            "comment": "The Dwarf Umbrella Plant is a perfect fit for my compact space. Love its graceful branches!",
+            "replies": [
+              {
+                "user-id": "admin",
+                "user-name": "Admin",
+                "comment": "We're delighted to provide a space-saving beauty for your home. Thank you for choosing Dwarf Umbrella Plant."
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
