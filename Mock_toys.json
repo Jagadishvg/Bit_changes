@@ -1,0 +1,975 @@
+{
+  "all_items": [
+    {
+      "productId": "001",
+      "title": "George",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://images.unsplash.com/photo-1615486363973-f79d875780cf?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGtpZHMlMjB0b3lzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000",
+      "imageAltText": "Card Image",
+
+     "quantity":"1",
+ "productDetails": {
+        "productName": "George Plushie",
+        "caption": "A plushie friend for your child",
+        "description": "Soft and cuddly, George the plushie is the perfect companion for your little one.",
+        "badge": "Best Seller",
+        "averageRating": "4.8",
+        "totalRatings": "1200",
+        "price": "$25",
+        "discountPrice": "$20",
+        "images": [
+          {
+            "imageSrc": "https://example.com/george-plushie-image1.jpg",
+            "imageAltText": "George Plushie Image 1"
+          },
+          {
+            "imageSrc": "https://example.com/george-plushie-image2.jpg",
+            "imageAltText": "George Plushie Image 2"
+          }
+        ],
+        "offers": "Buy 2, Get 1 Free!",
+        "available": true,
+        "category": "Toys",
+        "subcategory": "Plastic Toy",
+        "keywords": ["soft", "cuddly", "plush", "toy", "childhood", "gift"],
+        "classification": [
+          {
+            "color": "brown",
+            "size": "medium"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "parent123",
+            "user-name": "HappyParent",
+            "rating": "5",
+            "comment": "My child loves George! So soft and huggable.",
+            "replies": [
+              {
+                "user-id": "admin",
+                "user-name": "Admin",
+                "comment": "We're delighted to hear that! Thank you for choosing George."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "productId": "002",
+      "title": "Pickles",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://images.unsplash.com/photo-1615486364134-62a4c72c822d?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fGtpZHMlMjB0b3lzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000",
+      "imageAltText": "Card Image",
+     "quantity":"1",
+ "productDetails": {
+        "productName": "Pickles Plushie",
+        "caption": "A cute and cuddly plushie companion",
+        "description": "Meet Pickles, the lovable plushie that brings joy and comfort to your child's playtime.",
+        "badge": "New Arrival",
+        "averageRating": "4.9",
+        "totalRatings": "980",
+        "price": "$30",
+        "discountPrice": "$25",
+        "images": [
+          {
+            "imageSrc": "https://example.com/pickles-plushie-image1.jpg",
+            "imageAltText": "Pickles Plushie Image 1"
+          },
+          {
+            "imageSrc": "https://example.com/pickles-plushie-image2.jpg",
+            "imageAltText": "Pickles Plushie Image 2"
+          }
+        ],
+        "offers": "Limited edition packaging!",
+        "available": true,
+        "category": "Toys",
+        "subcategory": "Plushies",
+        "keywords": ["cute", "soft", "plush", "toy", "adorable", "gift"],
+        "classification": [
+          {
+            "color": "yellow",
+            "size": "small"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "parent456",
+            "user-name": "JoyfulMom",
+            "rating": "4.8",
+            "comment": "Pickles is adorable! My child can't get enough of this plushie.",
+            "replies": [
+              {
+                "user-id": "admin",
+                "user-name": "Admin",
+                "comment": "We're thrilled to hear that! Thank you for choosing Pickles."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "productId": "003",
+      "title": "Lala",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://images.unsplash.com/photo-1615486363990-dff6c0722a38?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjl8fGtpZHMlMjB0b3lzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000",
+      "imageAltText": "Card Image",
+     "quantity":"1",
+ "productDetails": {
+        "productName": "Lala Plushie",
+        "caption": "A magical and enchanting plushie friend",
+        "description": "Lala, the magical plushie, will transport your child to a world of imagination and joy.",
+        "badge": "Top Seller",
+        "averageRating": "4.7",
+        "totalRatings": "1050",
+        "price": "$35",
+        "discountPrice": "$30",
+        "images": [
+          {
+            "imageSrc": "https://example.com/lala-plushie-image1.jpg",
+            "imageAltText": "Lala Plushie Image 1"
+          },
+          {
+            "imageSrc": "https://example.com/lala-plushie-image2.jpg",
+            "imageAltText": "Lala Plushie Image 2"
+          }
+        ],
+        "offers": "Free Lala-themed sticker with every purchase!",
+        "available": true,
+        "category": "Toys",
+        "subcategory": "Plushies",
+        "keywords": ["magical", "enchanted", "soft", "plush", "toy", "fantasy"],
+        "classification": [
+          {
+            "color": "purple",
+            "size": "medium"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "parent789",
+            "user-name": "ImaginativeDad",
+            "rating": "4.5",
+            "comment": "Lala is a magical addition to our playroom. My child loves it!",
+            "replies": [
+              {
+                "user-id": "admin",
+                "user-name": "Admin",
+                "comment": "We're delighted to bring joy to your playroom! Thank you for choosing Lala."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "productId": "004",
+      "title": "Fred",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://images.unsplash.com/photo-1615486363973-f79d875780cf?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=60&raw_url=true&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjN8fGtpZHMlMjB0b3lzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1000",
+      "imageAltText": "Card Image",
+     "quantity":"1",
+ "productDetails": {
+        "productName": "Fred Plushie",
+        "caption": "A friendly and huggable plushie companion",
+        "description": "Meet Fred, the friendly plushie ready to provide warmth and comfort with every hug.",
+        "badge": "Customer Favorite",
+        "averageRating": "4.6",
+        "totalRatings": "950",
+        "price": "$28",
+        "discountPrice": "$22",
+        "images": [
+          {
+            "imageSrc": "https://example.com/fred-plushie-image1.jpg",
+            "imageAltText": "Fred Plushie Image 1"
+          },
+          {
+            "imageSrc": "https://example.com/fred-plushie-image2.jpg",
+            "imageAltText": "Fred Plushie Image 2"
+          }
+        ],
+        "offers": "Limited edition Fred-themed keychain included!",
+        "available": true,
+        "category": "Toys",
+        "subcategory": "Plushies",
+        "keywords": ["friendly", "huggable", "soft", "plush", "toy", "comfort"],
+        "classification": [
+          {
+            "color": "blue",
+            "size": "large"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "parent101",
+            "user-name": "HappyDad",
+            "rating": "4.7",
+            "comment": "Fred is the perfect bedtime buddy for my child. Great quality!",
+            "replies": [
+              {
+                "user-id": "admin",
+                "user-name": "Admin",
+                "comment": "We're thrilled to hear that Fred brings comfort to bedtime! Thank you for choosing Fred."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "productId": "005",
+      "title": "Bella",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://media.istockphoto.com/id/1355208976/photo/sleeping-bear-on-the-moon-felt-cot-mobile-close-up-soft-plushie-toy-decoration-over-the-crib.webp?b=1&s=170667a&w=0&k=20&c=MOok2tp51Ulz9NOYqGFfwfWAy2bnCDyhJiMWUlANOxs=",
+      "imageAltText": "Bella Plushie Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Bella Plushie",
+        "caption": "A lovable plushie for every occasion",
+        "description": "Bella is a charming and soft plushie that brings joy and comfort to anyone who hugs her.",
+        "badge": "Customer Favorite",
+        "averageRating": "4.9",
+        "totalRatings": "1500",
+        "price": "$30",
+        "discountPrice": "$25",
+        "images": [
+          {
+            "imageSrc": "https://example.com/bella-plushie-image1.jpg",
+            "imageAltText": "Bella Plushie Image 1"
+          },
+          {
+            "imageSrc": "https://example.com/bella-plushie-image2.jpg",
+            "imageAltText": "Bella Plushie Image 2"
+          }
+        ],
+        "offers": "Free Shipping on orders over $50",
+        "available": true,
+        "category": "Toys",
+        "subcategory": "Plushies",
+        "keywords": ["lovable", "soft", "plush", "toy", "joyful", "gift"],
+        "classification": [
+          {
+            "color": "pink",
+            "size": "small"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "customer789",
+            "user-name": "JoyfulCustomer",
+            "rating": "4.5",
+            "comment": "Bella is adorable! My daughter loves her new plushie friend."
+          }
+        ]
+      }
+    },
+    {
+      "productId": "006",
+      "title": "Santa",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://media.istockphoto.com/id/1856975381/photo/little-toy-santa-claus-on-a-white-background.webp?b=1&s=170667a&w=0&k=20&c=MGxT4Yb811hyDghAkfaXXNt7loV-SEp35BOajJWLq0k=",
+      "imageAltText": "Santa Plushie Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Santa Plushie",
+        "caption": "A playful plushie for endless fun",
+        "description": "Santa loves to play and is the perfect companion for kids who enjoy imaginative adventures.",
+        "badge": "Best Seller",
+        "averageRating": "4.7",
+        "totalRatings": "1200",
+        "price": "$28",
+        "discountPrice": "$22",
+        "images": [
+          {
+            "imageSrc": "https://example.com/Santa-plushie-image1.jpg",
+            "imageAltText": "Santa Plushie Image 1"
+          },
+          {
+            "imageSrc": "https://example.com/Santa-plushie-image2.jpg",
+            "imageAltText": "Santa Plushie Image 2"
+          }
+        ],
+        "offers": "Buy 2, Get 1 Free!",
+        "available": true,
+        "category": "Toys",
+        "subcategory": "Plushies",
+        "keywords": ["playful", "soft", "plush", "toy", "imagination", "gift"],
+        "classification": [
+          {
+            "color": "blue",
+            "size": "medium"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "parent456",
+            "user-name": "HappyParent2",
+            "rating": "5",
+            "comment": "Santa is a hit in our household! So much fun for the kids."
+          }
+        ]
+      }
+    },
+    {
+      "productId": "007",
+      "title": "Mia",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://media.istockphoto.com/id/1465488817/photo/closeup-of-bear-stuffed-toy-with-a-miniature-guitar-hanging-on-its-neck.jpg?s=612x612&w=0&k=20&c=zCtBXyOuivSoD92Yj5JPiXfMVjkuY0G7pA-6b4nQfRE=",
+      "imageAltText": "Mia Plushie Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Mia Plushie",
+        "caption": "A gentle companion for bedtime",
+        "description": "Mia is designed to provide comfort and warmth, making bedtime a cozy and soothing experience for kids.",
+        "badge": "Customer Favorite",
+        "averageRating": "4.8",
+        "totalRatings": "1400",
+        "price": "$32",
+        "discountPrice": "$27",
+        "images": [
+          {
+            "imageSrc": "https://example.com/mia-plushie-image1.jpg",
+            "imageAltText": "Mia Plushie Image 1"
+          },
+          {
+            "imageSrc": "https://example.com/mia-plushie-image2.jpg",
+            "imageAltText": "Mia Plushie Image 2"
+          }
+        ],
+        "offers": "Free Gift Wrapping on all Mia plushies!",
+        "available": true,
+        "category": "Toys",
+        "subcategory": "Plushies",
+        "keywords": ["gentle", "soft", "plush", "toy", "bedtime", "gift"],
+        "classification": [
+          {
+            "color": "purple",
+            "size": "small"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "parent789",
+            "user-name": "CozyNights",
+            "rating": "4.9",
+            "comment": "Mia has made bedtime routines much more enjoyable for my child."
+          }
+        ]
+      }
+    },
+    {
+      "productId": "008",
+      "title": "Oliver",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://media.istockphoto.com/id/883096364/photo/stuffed-toy-gingerbread-man-on-display-awarded-as-winning-prizes-at-winter-wonderland.jpg?s=612x612&w=0&k=20&c=nifMLV6cmVwkfAPssAWycbKvinAiJoQWH6a9FHuPo_M=",
+      "imageAltText": "Oliver Plushie Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Oliver Plushie",
+        "caption": "An adventurous plushie for young explorers",
+        "description": "Oliver is ready for any adventure, making him the perfect companion for kids who love to explore the world around them.",
+        "badge": "Best Seller",
+        "averageRating": "4.6",
+        "totalRatings": "1100",
+        "price": "$26",
+        "discountPrice": "$21",
+        "images": [
+          {
+            "imageSrc": "https://example.com/oliver-plushie-image1.jpg",
+            "imageAltText": "Oliver Plushie Image 1"
+          },
+          {
+            "imageSrc": "https://example.com/oliver-plushie-image2.jpg",
+            "imageAltText": "Oliver Plushie Image 2"
+          }
+        ],
+        "offers": "Limited Edition Explorer Kit with every Oliver plushie!",
+        "available": true,
+        "category": "Toys",
+        "subcategory": "Plushies",
+        "keywords": ["adventurous", "soft", "plush", "toy", "exploration", "gift"],
+        "classification": [
+          {
+            "color": "green",
+            "size": "medium"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "parent101",
+            "user-name": "AdventureSeeker",
+            "rating": "4.7",
+            "comment": "Oliver has become our little explorer's sidekick. Great quality and design!"
+          }
+        ]
+      }
+    },
+    {
+      "productId": "009",
+      "title": "Luna",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://media.istockphoto.com/id/1203785790/photo/soft-toy-dragon-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=aefBgwfh3kPffsZAM1JWsJypzDMqYkcj0RoLKqNyWRc=",
+      "imageAltText": "Luna Plushie Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Luna Plushie",
+        "caption": "A magical companion for bedtime",
+        "description": "Luna brings a touch of magic to bedtime, with her shimmering fur and comforting presence.",
+        "badge": "New Arrival",
+        "averageRating": "4.5",
+        "totalRatings": "800",
+        "price": "$35",
+        "discountPrice": "$30",
+        "images": [
+          {
+            "imageSrc": "https://i.imgur.com/TdC8DVG.jpg",
+            "imageAltText": "Luna Plushie Image 1"
+          },
+          {
+            "imageSrc": "https://i.imgur.com/y0OY5mi.jpg",
+            "imageAltText": "Luna Plushie Image 2"
+          }
+        ],
+        "offers": "Free Luna keychain with every purchase!",
+        "available": true,
+        "category": "Toys",
+        "subcategory": "Plushies",
+        "keywords": ["magical", "soft", "plush", "toy", "bedtime", "gift"],
+        "classification": [
+          {
+            "color": "silver",
+            "size": "small"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "magiclover",
+            "user-name": "EnchantedDreams",
+            "rating": "4.8",
+            "comment": "Luna is simply enchanting! My child loves the magical touch she brings to bedtime."
+          }
+        ]
+      }
+    },
+    {
+      "productId": "010",
+      "title": "Max",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://media.istockphoto.com/id/502610068/photo/imp.jpg?s=612x612&w=0&k=20&c=o2v9SjpC0cjDAoZlxSBo10yBzO76ItatTtQxrQbDEKg=",
+      "imageAltText": "Max Plushie Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Max Plushie",
+        "caption": "A mischievous friend for playtime",
+        "description": "Max loves to play tricks and brings a sense of adventure to playtime with his playful antics.",
+        "badge": "Best Seller",
+        "averageRating": "4.7",
+        "totalRatings": "1100",
+        "price": "$28",
+        "discountPrice": "$23",
+        "images": [
+          {
+            "imageSrc": "https://i.imgur.com/jLu1qhl.jpg",
+            "imageAltText": "Max Plushie Image 1"
+          },
+          {
+            "imageSrc": "https://i.imgur.com/Qldax7P.jpg",
+            "imageAltText": "Max Plushie Image 2"
+          }
+        ],
+        "offers": "Limited edition Max plushie collectors set available!",
+        "available": true,
+        "category": "Toys",
+        "subcategory": "Plushies",
+        "keywords": ["mischievous", "soft", "plush", "toy", "adventure", "gift"],
+        "classification": [
+          {
+            "color": "orange",
+            "size": "medium"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "playfulparent",
+            "user-name": "AdventureTime",
+            "rating": "4.6",
+            "comment": "Max is a bundle of joy! My kids love his playful spirit during playtime."
+          }
+        ]
+      }
+    },
+    {
+      "productId": "011",
+      "title": "Milo",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://media.istockphoto.com/id/637343850/photo/big-garlic-plush-toy.jpg?s=612x612&w=0&k=20&c=imI1RI-74h1KHt94bR0lyQzP829yMleMBwAYDoexZNM=",
+      "imageAltText": "Milo Plushie Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Milo Plushie",
+        "caption": "A huggable friend for all ages",
+        "description": "Milo is designed for unlimited hugs, with his super-soft fur and comforting presence.",
+        "badge": "Customer Favorite",
+        "averageRating": "4.9",
+        "totalRatings": "1300",
+        "price": "$32",
+        "discountPrice": "$28",
+        "images": [
+          {
+            "imageSrc": "https://i.imgur.com/lpmv0eo.jpg",
+            "imageAltText": "Milo Plushie Image 1"
+          },
+          {
+            "imageSrc": "https://i.imgur.com/ys6v9nd.jpg",
+            "imageAltText": "Milo Plushie Image 2"
+          }
+        ],
+        "offers": "Special edition Milo plushie with personalized name tag available!",
+        "available": true,
+        "category": "Cars",
+        "subcategory": "Plushies",
+        "keywords": ["huggable", "soft", "plush", "toy", "comfort", "gift"],
+        "classification": [
+          {
+            "color": "brown",
+            "size": "large"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "hugger123",
+            "user-name": "ComfortSeeker",
+            "rating": "5",
+            "comment": "Milo is the perfect cuddle buddy! His softness brings comfort to all ages."
+          }
+        ]
+      }
+    },
+    {
+      "productId": "012",
+      "title": "Sophie",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://media.istockphoto.com/id/1206936004/photo/soft-toy-pig-on-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=NBj2w9SqF93sqQSlHca07vsV3H4hu0q8qaHi111BzM8=",
+      "imageAltText": "Sophie Plushie Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Sophie Plushie",
+        "caption": "An elegant plushie for tea parties",
+        "description": "Sophie is dressed in a beautiful outfit, making her the ideal companion for tea parties and imaginative play.",
+        "badge": "New Arrival",
+        "averageRating": "4.6",
+        "totalRatings": "900",
+        "price": "$30",
+        "discountPrice": "$25",
+        "images": [
+          {
+            "imageSrc": "https://i.imgur.com/dfeG7VV.jpg",
+            "imageAltText": "Sophie Plushie Image 1"
+          },
+          {
+            "imageSrc": "https://i.imgur.com/hMT1z1j.jpg",
+            "imageAltText": "Sophie Plushie Image 2"
+          }
+        ],
+        "offers": "Limited edition tea party set with Sophie plushie included!",
+        "available": true,
+        "category": "Dolls",
+        "subcategory": "Plushies",
+        "keywords": ["elegant", "soft", "plush", "toy", "tea party", "gift"],
+        "classification": [
+          {
+            "color": "pink",
+            "size": "medium"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "imaginationqueen",
+            "user-name": "TeaTimeExplorer",
+            "rating": "4.7",
+            "comment": "Sophie adds a touch of elegance to our tea parties. Beautifully crafted plushie!"
+          }
+        ]
+      }
+    },
+    {
+      "productId": "013",
+      "title": "Oscar",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://media.istockphoto.com/id/1250701224/photo/a-pink-plush-cow-grazes-in-a-green-meadow.jpg?s=612x612&w=0&k=20&c=qLXjgcR-uQDOErSn_lGS2Rd59b_FoNZKMj5t3PWZFPE=",
+      "imageAltText": "Oscar Plushie Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Oscar Plushie",
+        "caption": "A cheerful buddy for every occasion",
+        "description": "Oscar is a bundle of joy, always ready to bring smiles and happiness to kids of all ages.",
+        "badge": "Customer Favorite",
+        "averageRating": "4.8",
+        "totalRatings": "1200",
+        "price": "$26",
+        "discountPrice": "$22",
+        "images": [
+          {
+            "imageSrc": "https://i.imgur.com/7KslDg3.jpg",
+            "imageAltText": "Oscar Plushie Image 1"
+          },
+          {
+            "imageSrc": "https://i.imgur.com/QWkM5X9.jpg",
+            "imageAltText": "Oscar Plushie Image 2"
+          }
+        ],
+        "offers": "Free Oscar sticker set with every purchase!",
+        "available": true,
+        "category": "Dolls",
+        "subcategory": "Plushies",
+        "keywords": ["cheerful", "soft", "plush", "toy", "happiness", "gift"],
+        "classification": [
+          {
+            "color": "yellow",
+            "size": "small"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "smilelover",
+            "user-name": "JoyfulDays",
+            "rating": "4.9",
+            "comment": "Oscar brings so much happiness! My child's new best friend."
+          }
+        ]
+      }
+    },
+    {
+      "productId": "014",
+      "title": "Zoe",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://media.istockphoto.com/id/1654951280/photo/toy.jpg?s=612x612&w=0&k=20&c=KAC6gDjL8aREaYbgdX4T4q6Cg78SYtIlTjzEeoSn1A0=",
+      "imageAltText": "Zoe Plushie Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Zoe Plushie",
+        "caption": "A whimsical companion for creative play",
+        "description": "Zoe sparks creativity and imagination, making her the perfect friend for kids who love to explore their artistic side.",
+        "badge": "Best Seller",
+        "averageRating": "4.7",
+        "totalRatings": "1000",
+        "price": "$30",
+        "discountPrice": "$25",
+        "images": [
+          {
+            "imageSrc": "https://i.imgur.com/jVxWm5S.jpg",
+            "imageAltText": "Zoe Plushie Image 1"
+          },
+          {
+            "imageSrc": "https://i.imgur.com/VY5UZkg.jpg",
+            "imageAltText": "Zoe Plushie Image 2"
+          }
+        ],
+        "offers": "Artistic Zoe plushie gift set available now!",
+        "available": true,
+        "category": "Dolls",
+        "subcategory": "Plushies",
+        "keywords": ["whimsical", "soft", "plush", "toy", "creative", "gift"],
+        "classification": [
+          {
+            "color": "purple",
+            "size": "medium"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "artexplorer",
+            "user-name": "CreativeKid",
+            "rating": "4.8",
+            "comment": "Zoe is inspiring! My child loves creating art with her by their side."
+          }
+        ]
+      }
+    },
+    {
+      "productId": "015",
+      "title": "Buddy",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://media.istockphoto.com/id/1298632095/photo/teddy-bear-that-perfect-addition-to-your-babys-play-set.jpg?s=612x612&w=0&k=20&c=kDEb5HYcySdhIScs10xn7-UxGoJUhqgdBgDZDzq05Q0=",
+      "imageAltText": "Buddy Plushie Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Buddy Plushie",
+        "caption": "A loyal friend for outdoor adventures",
+        "description": "Buddy is the perfect companion for outdoor play, always ready for exciting adventures and exploration.",
+        "badge": "New Arrival",
+        "averageRating": "4.6",
+        "totalRatings": "950",
+        "price": "$28",
+        "discountPrice": "$24",
+        "images": [
+          {
+            "imageSrc": "https://i.imgur.com/6HKjAfO.jpg",
+            "imageAltText": "Buddy Plushie Image 1"
+          },
+          {
+            "imageSrc": "https://i.imgur.com/itMmhts.jpg",
+            "imageAltText": "Buddy Plushie Image 2"
+          }
+        ],
+        "offers": "Limited edition outdoor adventure kit with Buddy plushie!",
+        "available": true,
+        "category": "Dolls",
+        "subcategory": "Plushies",
+        "keywords": ["loyal", "soft", "plush", "toy", "adventure", "gift"],
+        "classification": [
+          {
+            "color": "brown",
+            "size": "medium"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "adventurebuddy",
+            "user-name": "ExplorerKid",
+            "rating": "4.7",
+            "comment": "Buddy is our adventure buddy! Always ready for outdoor fun."
+          }
+        ]
+      }
+    },
+    {
+      "productId": "016",
+      "title": "Grace",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://media.istockphoto.com/id/1147339257/photo/smile-monkey-doll.jpg?s=612x612&w=0&k=20&c=e9xOvzIGTo-e0g1MP7QOBH4qtrmh87te0Zm80mE0pZc=",
+      "imageAltText": "Grace Plushie Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Grace Plushie",
+        "caption": "An elegant and graceful friend for tea parties",
+        "description": "Grace is dressed in a beautiful gown, bringing elegance and charm to tea parties and imaginative play.",
+        "badge": "Customer Favorite",
+        "averageRating": "4.9",
+        "totalRatings": "1100",
+        "price": "$32",
+        "discountPrice": "$28",
+        "images": [
+          {
+            "imageSrc": "https://i.imgur.com/Aq2ovGJ.jpg",
+            "imageAltText": "Grace Plushie Image 1"
+          },
+          {
+            "imageSrc": "https://i.imgur.com/TiErVam.jpg",
+            "imageAltText": "Grace Plushie Image 2"
+          }
+        ],
+        "offers": "Limited edition tea party set with Grace plushie included!",
+        "available": true,
+        "category": "Dolls",
+        "subcategory": "Plushies",
+        "keywords": ["elegant", "graceful", "soft", "plush", "toy", "tea party", "gift"],
+        "classification": [
+          {
+            "color": "white",
+            "size": "medium"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "teapartylover",
+            "user-name": "TeaTimeEnthusiast",
+            "rating": "4.8",
+            "comment": "Grace adds a touch of grace to our tea parties. Exquisite plushie design!"
+          }
+        ]
+      }
+    },
+    {
+      "productId": "017",
+      "title": "Milo Jr.",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://media.istockphoto.com/id/886796590/photo/colorful-animal-doll-isolated-on-white-background-with-clipping-path.jpg?s=612x612&w=0&k=20&c=sVjw0mLtwkC2JfRDwQgNoE5XeSOjout6QKE0GvcGltc=",
+      "imageAltText": "Milo Jr. Plushie Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Milo Jr. Plushie",
+        "caption": "A mini huggable companion",
+        "description": "Milo Jr. is the adorable, smaller version of Milo, perfect for on-the-go hugs and cuddles.",
+        "badge": "New Arrival",
+        "averageRating": "4.7",
+        "totalRatings": "900",
+        "price": "$18",
+        "discountPrice": "$15",
+        "images": [
+          {
+            "imageSrc": "https://i.imgur.com/tl8EBmX.jpg",
+            "imageAltText": "Milo Jr. Plushie Image 1"
+          },
+          {
+            "imageSrc": "https://i.imgur.com/G4F07cn.jpg",
+            "imageAltText": "Milo Jr. Plushie Image 2"
+          }
+        ],
+        "offers": "Collect the Milo family – Get Milo Jr. with Milo plushie!",
+        "available": true,
+        "category": "Dolls",
+        "subcategory": "Plushies",
+        "keywords": ["mini", "huggable", "soft", "plush", "toy", "cuddles", "gift"],
+        "classification": [
+          {
+            "color": "brown",
+            "size": "mini"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "minicuddler",
+            "user-name": "TinyHugs",
+            "rating": "4.6",
+            "comment": "Milo Jr. is so cute and perfect for tiny hugs! Adorable addition to our plushie collection."
+          }
+        ]
+      }
+    },
+    {
+      "productId": "018",
+      "title": "Sunny",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://images.unsplash.com/photo-1703250151846-123212b5d3d1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fHBsdXNoaWV8ZW58MHx8MHx8fDA%3D",
+      "imageAltText": "Sunny Plushie Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Sunny Plushie",
+        "caption": "A ray of sunshine in plushie form",
+        "description": "Sunny brings warmth and happiness wherever it goes, making it the perfect companion for brightening any day.",
+        "badge": "Customer Favorite",
+        "averageRating": "4.9",
+        "totalRatings": "1200",
+        "price": "$22",
+        "discountPrice": "$18",
+        "images": [
+          {
+            "imageSrc": "https://i.imgur.com/FEdxEcH.jpg",
+            "imageAltText": "Sunny Plushie Image 1"
+          },
+          {
+            "imageSrc": "https://i.imgur.com/p8RdzXY.jpg",
+            "imageAltText": "Sunny Plushie Image 2"
+          }
+        ],
+        "offers": "Limited edition Sunny plushie with a sunshine keychain!",
+        "available": true,
+        "category": "Dolls",
+        "subcategory": "Plushies",
+        "keywords": ["sunshine", "warmth", "soft", "plush", "toy", "happiness", "gift"],
+        "classification": [
+          {
+            "color": "yellow",
+            "size": "small"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "sunnydays",
+            "user-name": "HappyVibes",
+            "rating": "4.8",
+            "comment": "Sunny is our sunshine! Always brings a smile to our faces."
+          }
+        ]
+      }
+    },
+    {
+      "productId": "019",
+      "title": "Coco",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://media.istockphoto.com/id/496737094/photo/puppet.jpg?s=612x612&w=0&k=20&c=B6jTzGFRvAdXpyzS6C8CDmgEtojzhvsthgYpKj0uxz0=",
+      "imageAltText": "Coco Plushie Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Coco Plushie",
+        "caption": "A chocolatey sweet cuddle buddy",
+        "description": "Coco is irresistibly sweet and cuddly, making it the perfect plushie for those with a love for all things chocolate.",
+        "badge": "Best Seller",
+        "averageRating": "4.7",
+        "totalRatings": "1100",
+        "price": "$25",
+        "discountPrice": "$20",
+        "images": [
+          {
+            "imageSrc": "https://i.imgur.com/2jBwBKI.jpg",
+            "imageAltText": "Coco Plushie Image 1"
+          },
+          {
+            "imageSrc": "https://i.imgur.com/Wc8wwpy.jpg",
+            "imageAltText": "Coco Plushie Image 2"
+          }
+        ],
+        "offers": "Free Coco-themed plushie pouch with every purchase!",
+        "available": true,
+        "category": "Dolls",
+        "subcategory": "Plushies",
+        "keywords": ["chocolatey", "sweet", "soft", "plush", "toy", "cuddle", "gift"],
+        "classification": [
+          {
+            "color": "brown",
+            "size": "medium"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "chocolatelover",
+            "user-name": "SweetTooth",
+            "rating": "4.9",
+            "comment": "Coco is as sweet as chocolate! Love cuddling with this adorable plushie."
+          }
+        ]
+      }
+    },
+    {
+      "productId": "020",
+      "title": "Rainbow",
+      "buttonText": "Buy Now",
+      "imageSrc": "https://media.istockphoto.com/id/1189190503/photo/cute-rainbow-colored-owl-plushie-doll-isolated-on-white-background-with-shadow-reflection.jpg?s=612x612&w=0&k=20&c=C_bYH6JNuCMGKl9GqYwbYlWLujd2IXePiLZgc3awIiI=",
+      "imageAltText": "Rainbow Plushie Image",
+      "quantity": "1",
+      "productDetails": {
+        "productName": "Rainbow Plushie",
+        "caption": "A burst of color in plushie form",
+        "description": "Rainbow is a vibrant and colorful plushie that adds a cheerful touch to any room or play area.",
+        "badge": "New Arrival",
+        "averageRating": "4.6",
+        "totalRatings": "950",
+        "price": "$28",
+        "discountPrice": "$24",
+        "images": [
+          {
+            "imageSrc": "https://i.imgur.com/FNfPKlt.jpg",
+            "imageAltText": "Rainbow Plushie Image 1"
+          },
+          {
+            "imageSrc": "https://i.imgur.com/wLVIVfw.jpg",
+            "imageAltText": "Rainbow Plushie Image 2"
+          }
+        ],
+        "offers": "Limited edition Rainbow plushie with a matching pillow!",
+        "available": true,
+        "category": "Dolls",
+        "subcategory": "Plushies",
+        "keywords": ["colorful", "vibrant", "soft", "plush", "toy", "cheerful", "gift"],
+        "classification": [
+          {
+            "color": "multi",
+            "size": "large"
+          }
+        ],
+        "reviews": [
+          {
+            "user-id": "colorlover",
+            "user-name": "CheerfulDays",
+            "rating": "4.7",
+            "comment": "Rainbow brings so much color and joy! A delightful addition to our plushie collection."
+          }
+        ]
+      }
+    }
+  ]
+}
+ 
+ 
