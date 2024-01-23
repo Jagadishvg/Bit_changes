@@ -1,0 +1,158 @@
+import React, { ReactNode, useContext, useEffect, useState } from 'react';
+import { PlainCard } from "@my-scope/components.plain-card";
+import { CategoryContext } from '@my-scope/context.category';
+
+export type CategoryProps = {
+  children?: ReactNode;
+};
+
+export function Category({ children }: CategoryProps) {
+  const [mockData, setMockData] = useState({ all_items: [] });
+  const [homeData, setHomeData] = useState({ featureSection: {} });
+  const { setCategory, selectedCategory, setSubcategory, selectedSubcategory } = useContext(CategoryContext);
+  const [pageNumber, setPageNumber] = useState(0);
+  const itemsPerPage = 6;
+
+  useEffect(() => {
+    fetch('http://127.0.0.1:5500/my-scope/assets/Mock.json')
+      .then((response) => response.json())
+      .then((data) => setMockData(data))
+      .catch((error) => console.error('Error fetching mock data:', error));
+  }, []);
+
+  useEffect(() => {
+    fetch('http://127.0.0.1:5500/my-scope/assets/home2.json')
+      .then((response) => response.json())
+      .then((jsonData) => setHomeData(jsonData))
+      .catch((error) => console.error('Error:', error));
+  }, []);
+
+  const gridClass = homeData.featureSection && homeData.featureSection.cardSize &&
+    homeData.featureSection.cardSize === 'small' ? 'col-6 col-lg-2 col-md-3 col-sm-4' : 'col-12 col-lg-4 col-md-6 col-sm-6';
+
+  const subcategories = [...new Set(mockData.all_items.map((item) => item.productDetails.subcategory))];
+
+  const filteredItems = mockData.all_items.filter(
+    (item) =>
+      (!selectedCategory || item.productDetails.category === selectedCategory) &&
+      (!selectedSubcategory || item.productDetails.subcategory === selectedSubcategory)
+  );
+
+  const pageCount = Math.ceil(filteredItems.length / itemsPerPage);
+
+  const changePage = ({ selected }: { selected: number }) => {
+    setPageNumber(selected);
+  };
+
+  useEffect(() => {
+    setPageNumber(0);
+  }, [selectedSubcategory]);
+
+  return (
+    <div className='pt-4'>
+      <section className="container pt-5 mt-5">
+        <div className='mb-4'>
+          <a className="link" href="#">
+            <i className="fas fa-angle-left me-3 my-3 pt-5 my-lg-4"></i>Back to previous page
+          </a>
+        </div>
+        <div className="row">
+          <div className="col-12 col-md-4 col-lg-3 mt-3 pb-4 pb-lg-5">
+            <div className="fs-5 mb-3 fw-bold">Filter By Categories</div>
+            <ul className="list-group">
+              {subcategories.map((subcategory) => (
+                <li
+                  key={subcategory}
+                  className={`list-group-item ${subcategory === selectedSubcategory ? 'active' : ''}`}
+                  onClick={() => setSubcategory(subcategory)}
+                  style={{ cursor: 'pointer' }}
+                >
+                  {subcategory}
+                </li>
+              ))}
+            </ul>
+            <div className="fs-5 mt-4 mb-3 fw-bold">More Filters</div>
+            <div className="accordion" id="accordionFlushExample ">
+              <div className="accordion-item">
+                <div className="accordion-header" id="flush-headingOne">
+                  <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Price Range
+                  </button>
+                </div>
+                <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                  data-bs-parent="#accordionFlushExample">
+                  <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                    <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+                </div>
+              </div>
+              <div className="accordion-item">
+                <div className="accordion-header" id="flush-headingTwo">
+                  <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Type
+                  </button>
+                </div>
+                <div id="flush-collapseTwo" className="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                  data-bs-parent="#accordionFlushExample">
+                  <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                    <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being
+                    filled with some actual content.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="col-12 col-md-8 col-lg-9 pb-5 pb-lg-5">
+            <div className="mb-4">
+              <span className="fw-bold me-4 mb-1">Category:</span>
+              <span className="badge bg-info text-black me-1 b-2">{selectedCategory}</span>
+              <span className="badge bg-info text-black me-4 b-2 ">{selectedSubcategory}</span>
+            </div>
+            <div className="row gy-4">
+              {filteredItems.length === 0 ? (
+                <div className="col-12 d-flex justify-content-center align-items-center">
+                  <p className="fw-bold fs-5">No results found.</p>
+                </div>
+              ) : (
+                filteredItems
+                  .slice(pageNumber * itemsPerPage, (pageNumber + 1) * itemsPerPage)
+                  .map((section, index) => (
+                    <div className={gridClass} key={index}>
+                      <PlainCard cardData={section} cardShape={homeData.featureSection.cardShape} />
+                    </div>
+                  ))
+              )}
+            </div>
+            {filteredItems.length !== 0 && (
+              <div className="mt-5 d-flex justify-content-center">
+                <nav aria-label="Page navigation example">
+                  <ul className="pagination">
+                    <li className={`page-item ${pageNumber === 0 ? 'disabled' : ''}`}>
+                      <button className="page-link" aria-label="Previous" onClick={() => changePage({ selected: pageNumber - 1 })}>
+                        <span aria-hidden="true">&laquo;</span>
+                      </button>
+                    </li>
+                    {[...Array(pageCount)].map((_, index) => (
+                      <li key={index} className={`page-item ${index === pageNumber ? 'active' : ''}`}>
+                        <button className="page-link" onClick={() => changePage({ selected: index })}>
+                          {index + 1}
+                        </button>
+                      </li>
+                    ))}
+                    <li className={`page-item ${pageNumber === pageCount - 1 ? 'disabled' : ''}`}>
+                      <button className="page-link" aria-label="Next" onClick={() => changePage({ selected: pageNumber + 1 })}>
+                        <span aria-hidden="true">&raquo;</span>
+                      </button>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+            )}
+          </div>
+        </div>
+        <hr />
+      </section>
+    </div>
+  );
+}
