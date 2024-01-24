@@ -2,7 +2,7 @@
   "all_items": [
     {
       "productId": "001",
-      "title": "Fern",
+      "title": "Fern Plant",
       "buttonText": "Buy Now",
       "imageSrc": "https://images.unsplash.com/photo-1686191487965-73440324e2f9?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZmVybiUyMHBsYW50fGVufDB8fDB8fHww",
       "imageAltText": "Fern Plant Image",
@@ -56,7 +56,7 @@
     },
     {
       "productId": "002",
-      "title": "succulent",
+      "title": "succulent Plant",
       "buttonText": "Buy Now",
       "imageSrc": "https://images.unsplash.com/photo-1620955206264-a5b902a907fb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3VjY3VsZW50JTIwcGxhbnR8ZW58MHx8MHx8fDA%3D",
       "imageAltText": "Succulent Plant Image",
@@ -110,7 +110,7 @@
     },
     {
       "productId": "003",
-      "title": "Lavender",
+      "title": "Lavender Plant",
       "buttonText": "Buy Now",
       "imageSrc": "https://images.unsplash.com/photo-1621198605275-d34dcad4c90c?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8TGF2ZW5kZXIlMjBwbGFudHxlbnwwfHwwfHx8MA%3D%3D",
       "imageAltText": "Lavender Plant Image",
@@ -176,7 +176,7 @@
         "badge": "Top Choice",
         "averageRating": "4.9",
         "totalRatings": "1000",
-        "price": "$12",
+        "price": "$260",
         "discountPrice": "$10",
         "images": [
           {
@@ -326,7 +326,7 @@
     },
     {
       "productId": "007",
-      "title": "Aloe Vera",
+      "title": "Aloe Vera Plant",
       "buttonText": "Buy Now",
       "imageSrc": "https://images.unsplash.com/photo-1570295835271-04c05b4ed943?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YWxvZSUyMHZlcmF8ZW58MHx8MHx8fDA%3D",
       "imageAltText": "Aloe Vera Image",
@@ -716,7 +716,7 @@
         "badge": "Hanging Marvel",
         "averageRating": "4.6",
         "totalRatings": "900",
-        "price": "$18",
+        "price": "$255",
         "discountPrice": "$15",
         "images": [
           {
