@@ -58,7 +58,7 @@ export function Category({ children }: CategoryProps) {
         </div>
         <div className="row">
           <div className="col-12 col-md-4 col-lg-3 mt-3 pb-4 pb-lg-5">
-            <div className="fs-5 mb-3 fw-bold">Filter By Categories</div>
+            <div className="fs-5 mb-3 fw-bold">Filter By Subcategories</div>
             <ul className="list-group">
               {subcategories.map((subcategory) => (
                 <li
