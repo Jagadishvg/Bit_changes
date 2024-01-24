@@ -1,0 +1,16 @@
+import { createContext } from 'react';
+
+
+export type CategoryContextType = {
+  selectedCategory: string | null;
+  setCategory: (category: string | null) => void;
+  selectedSubcategories: string[];
+  setSubcategory: (subcategory: string | null) => void;
+};
+
+export const CategoryContext = createContext<CategoryContextType>({
+  selectedCategory: null,
+  setCategory: () => {},
+  selectedSubcategories: [],
+  setSubcategory: () => {},
+});
