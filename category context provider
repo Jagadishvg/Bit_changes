@@ -1,0 +1,36 @@
+import React, { useState, ReactNode } from 'react';
+import { CategoryContext } from './category-context';
+
+export type CategoryProviderProps = {
+  children: ReactNode;
+};
+
+export function CategoryProvider({ children }: CategoryProviderProps) {
+  const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const [selectedSubcategories, setSelectedSubcategories] = useState<string[]>([]);
+
+  const setCategory = (category: string | null) => {
+    setSelectedCategory(category);
+  };
+
+  const setSubcategory = (subcategory: string | null) => {
+    setSelectedSubcategories((prevSubcategories) => {
+      if (subcategory === null) {
+        return [];
+      } else if (prevSubcategories.includes(subcategory)) {
+        return prevSubcategories.filter((item) => item !== subcategory);
+      } else {
+        return [...prevSubcategories, subcategory];
+      }
+    });
+  };
+
+  const contextValue = {
+    selectedCategory,
+    setCategory,
+    selectedSubcategories,
+    setSubcategory,
+  };
+
+  return <CategoryContext.Provider value={contextValue}>{children}</CategoryContext.Provider>;
+}
