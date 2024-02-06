@@ -1,0 +1,95 @@
+import React, { ReactNode, useState, useEffect, useContext } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
+import { OfferBanner } from '@my-scope/components.offer-banner';
+import { ProductCard } from '@my-scope/components.product-card';
+import { CardSection } from '@my-scope/components.card-section';
+import { WishlistContext } from '@my-scope/context.wishlist';
+import { CartContext } from '@my-scope/context.cart';
+
+export type WishlistProps = {
+  children?: ReactNode;
+};
+
+export function Wishlist({ children }: WishlistProps) {
+    const { wishlist } = useContext(WishlistContext);
+    const [wishlistData, setWishlistData] = useState({
+        offerBanner: {},
+        wishlistItems: {},
+    });
+    const [pageNumber, setPageNumber] = useState(0);
+    const itemsPerPage = 4;
+    const pageCount = Math.ceil(wishlist.length / itemsPerPage);
+    const startIndex = pageNumber * itemsPerPage;
+    const endIndex = (pageNumber + 1) * itemsPerPage;
+
+    useEffect(() => {
+        fetch('http://127.0.0.1:5500/my-scope/assets/wishlist.json')
+          .then((response) => response.json())
+          .then((jsonData) => setWishlistData(jsonData))
+          .catch((error) => console.error('Error:', error));
+    }, []);
+
+    const changePage = ({ selected }: { selected: number }) => {
+        setPageNumber(selected);
+    };
+
+    const gridClass = 'col-12 col-lg-3';
+
+    return (
+        <div className="mt-5">
+            <OfferBanner offerBanner={wishlistData.offerBanner} />
+            <section className="container mt-4">
+                <a className="link" href="#">
+                    <FontAwesomeIcon icon={faAngleLeft} className="me-2" />
+                    Back to previous page
+                </a>
+                <div className="row">    
+                    <div className="col-12 col-md-8 col-lg-9 pb-4 pb-lg-5">
+                        {wishlist.length !== 0 && (
+                            <h1 className="mb-lg-3">{wishlistData.wishlistItems.title}</h1>
+                        )}
+                        {wishlist.length === 0 && (
+                            <div className="col-12 d-flex justify-content-center align-items-center">
+                                <h2>Your Wishlist is Empty</h2>
+                            </div>
+                        )}
+                        <div className="row gy-4">
+                            {wishlist.slice(startIndex, endIndex).map((card, index) => (
+                                <div key={`${card.productId}-${index}`} className={gridClass}>
+                                    <ProductCard cardData={card} cardShape={"square"} currentPage={"wishlist"}> </ProductCard>
+                                </div>
+                            ))}
+                        </div>
+                        {wishlist.length !== 0 && (
+                            <div className="mt-5 d-flex justify-content-center">
+                                <nav aria-label="Page navigation example">
+                                    <ul className="pagination">
+                                        <li className={`page-item ${pageNumber === 0 ? 'disabled' : ''}`}>
+                                            <button className="page-link" aria-label="Previous" onClick={() => changePage({ selected: pageNumber - 1 })}>
+                                                <span aria-hidden="true">&laquo;</span>
+                                            </button>
+                                        </li>
+                                        {[...Array(pageCount)].map((_, index) => (
+                                            <li key={index} className={`page-item ${index === pageNumber ? 'active' : ''}`}>
+                                                <button className="page-link" onClick={() => changePage({ selected: index })}>
+                                                    {index + 1}
+                                                </button>
+                                            </li>
+                                        ))}
+                                        <li className={`page-item ${pageNumber === pageCount - 1 ? 'disabled' : ''}`}>
+                                            <button className="page-link" aria-label="Next" onClick={() => changePage({ selected: pageNumber + 1 })}>
+                                                <span aria-hidden="true">&raquo;</span>
+                                            </button>
+                                        </li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        )}
+                    </div>
+                </div>
+                <hr />
+            </section>
+        </div>
+    );
+}
