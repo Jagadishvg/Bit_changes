@@ -1,0 +1,125 @@
+{
+
+  "Manager": {
+
+    "id": 1,
+
+    "name": "John Doe",
+
+    "email": "john.doe@example.com"
+
+  },
+
+  "stores": [
+
+    {
+
+      "id": 1,
+
+      "name": "Store A",
+
+      "region": "North",
+
+      "regionCode": "N",
+
+      "devices": [
+
+        {
+
+          "id": 1,
+
+          "model": "Printer A",
+
+          "status": "connected"
+
+        },
+
+        {
+
+          "id": 2,
+
+          "model": "Scanner A",
+
+          "status": "connected"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "id": 2,
+
+      "name": "Store B",
+
+      "region": "South",
+
+      "regionCode": "S",
+
+      "devices": [
+
+        {
+
+          "id": 1,
+
+          "model": "Printer A",
+
+          "status": "disconnected"
+
+        },
+
+        {
+
+          "id": 2,
+
+          "model": "Scanner B",
+
+          "status": "connected"
+
+        }
+
+      ]
+
+    },
+
+    {
+
+      "id": 3,
+
+      "name": "Store C",
+
+      "region": "East",
+
+      "regionCode": "E",
+
+      "devices": [
+
+        {
+
+          "id": 1,
+
+          "model": "Printer C",
+
+          "status": "connected"
+
+        },
+
+        {
+
+          "id": 2,
+
+          "model": "Scanner C",
+
+          "status": "disconnected"
+
+        }
+
+      ]
+
+    }
+
+  ]
+
+}
